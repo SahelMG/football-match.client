@@ -10,6 +10,7 @@ interface Props {
   matchesData: MatchData[];
 }
 673aec799b8da49a21ebe415949b1f9dd482ba094bfd3afed9cad91bb18800b097a27fb8ee6cc5d1fd4a3cda9caaaef08630e5044d0fff28edc5ed00f22b0469a73ad8c7d8d86f9efe8b4e53
+https://webprog.io/course/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-%DA%AF%DB%8C%D8%AA-%D9%88-%DA%AF%DB%8C%D8%AA-%D9%87%D8%A7%D8%A8-git-github/episode/40
 const Football: React.FC<Props> = ({ matchesData }) => {
   const [league, setLeague] = useState<MatchData[]>(Array.isArray(matchesData) ? matchesData : []);
   const [show, setShow] = useState(false);
